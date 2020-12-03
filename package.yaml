@@ -1,0 +1,45 @@
+name:                meatbar
+version:             0.1.0.0
+github:              "cbeav/meatbar"
+license:             BSD3
+author:              "Chris Beavers"
+maintainer:          "crbeavers@gmail.com"
+copyright:           "2020 Meatbar & Sons, LLC"
+
+extra-source-files:
+- README.md
+
+data-files:
+- webapp/*.html
+- webapp/*.css
+- webapp/*.js
+- webapp/*.json
+- webapp/*.png
+- webapp/*.ico
+
+description: Please see the README on GitHub at <https://github.com/cbeav/meatbar#readme>
+
+dependencies:
+- aeson
+- base >= 4.7 && < 5
+- servant-server
+- text
+- wai-extra
+- warp
+
+library:
+  source-dirs: src
+
+default-extensions:
+- OverloadedStrings
+
+executables:
+  meatbar:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - meatbar

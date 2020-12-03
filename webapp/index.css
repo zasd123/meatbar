@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+body {
+  align-items: center;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.loginDiv {
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+}
