@@ -24,6 +24,7 @@ dependencies:
 - base >= 4.7 && < 5
 - servant-server
 - text
+- wai-cors
 - wai-extra
 - warp
 

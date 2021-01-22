@@ -4,6 +4,7 @@ module Main where
 import           Api
 import           Data.Proxy
 import           Network.Wai.Handler.Warp             hiding (getPort)
+import           Network.Wai.Middleware.Cors          (simpleCors)
 import           Network.Wai.Middleware.RequestLogger
 import           Servant
 import           System.Environment                   (lookupEnv)
@@ -16,7 +17,7 @@ main = do
     cfg = checkBasicAuth :. EmptyContext
     settings = setPort port defaultSettings
 
-  runSettings settings . logStdoutDev $ serveWithContext
+  runSettings settings . simpleCors . logStdoutDev $ serveWithContext
     (Proxy :: Proxy Api)
     cfg
     server
