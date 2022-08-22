@@ -49,7 +49,7 @@ Pre-requisites:
 - An existing s3 bucket to use as the terraform backend. Local state storage is also an option. 
 - A valid local AWS profile that matches the env var in qa.tfvars
     - $aws --profile qa configure 
-    - <enter access key and secret>
+    - enter access key and secret
 
 terraform/main.tf handles the following:
 -Docker build 
