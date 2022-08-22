@@ -34,13 +34,9 @@ Logging:
 - Cloudwatch agent is downloaded and configured during the docker build process,  /cloudwatch/amazon-cloudwatch-agent.json just needs to be pointed to the application log file in the guest OS
 
 ENDPOINT/DNS
+
 The application is current hosted at 18.232.145.101:8080. I don’t have any spare Domain names at the moment so I am skipping DNS and SSL setup for now, however I could easily set up an A/PTR record with AWS Route53 and a TLS cert in ACM via Terraform. This site will stay up until friday 08/26/22 as I am already mostly maxed out of free-teir resources in AWS.
 
-terraform/main.tf handles the following:
--Docker build 
--Upload to ECR, 
--Provisioning of infrastructure
--Hot-swap deployment of new images to the ECS task 
 
 DEPLOYMENT
 
