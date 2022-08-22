@@ -22,7 +22,7 @@ Iam:
 - Policy document that allows all the necessary permissions for the ECR push/pull, logging and deployment + execution of the application.
 
 Image Repository:
-- ECR was an obvious choice here as it integrates well with all the AWS conainter hosting services. 
+- ECR was an obvious choice here as it integrates well with all the AWS container hosting services. 
 
 Application Hosting:
 - ECS/Fargate was selected to host the single container application due to ease of integration with AWS IAM for permissions 
