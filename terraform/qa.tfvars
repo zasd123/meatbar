@@ -1,0 +1,5 @@
+env="qa"
+aws_account_id="414274869613"
+project="meatbar"
+region="us-east-1"
+owner="zhansen"

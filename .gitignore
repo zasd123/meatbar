@@ -3,3 +3,4 @@
 *.cabal
 dist/
 stack.yaml.*lock
+terraform/.terraform*
