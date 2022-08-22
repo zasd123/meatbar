@@ -9,15 +9,15 @@ My public Github username is: zasd123
 
 GENERAL ARCHITECTURE OVERVIEW
 VPC/Subnets:
-    - Allocated a /28 ip address VPC with a single subnet to host my ECS cluster
+- Allocated a /28 ip address VPC with a single subnet to host my ECS cluster
 
 Networking/Security: 
-    - VPC endpoints for ECS dependent services along 
-    - Internet Gateway along with an associated route-table entry
-    - A non-default security group following least privilege for the web-app
+- VPC endpoints for ECS dependent services along 
+- Internet Gateway along with an associated route-table entry
+- A non-default security group following least privilege for the web-app
 
 Iam:
-    - Application specific IAM role for use by the ECS service 
+ - Application specific IAM role for use by the ECS service 
     - Policy document that allows all the necessary permissions for the ECR push/pull, logging and deployment + execution of the application.
 
 Image Repository:
