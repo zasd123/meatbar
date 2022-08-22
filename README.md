@@ -43,6 +43,7 @@ terraform/main.tf handles the following:
 -Hot-swap deployment of new images to the ECS task 
 
 DEPLOYMENT
+
 Pre-requisites:
 - A terraform client and Docker daemon/desktop installed locally
 - An existing s3 bucket to use as the terraform backend. Local state storage is also an option. 
