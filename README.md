@@ -8,7 +8,8 @@ My public Github username is: zasd123
 
 
 GENERAL ARCHITECTURE OVERVIEW
-VPC/Subnets:
+
+VPC/Subnets
 - Allocated a /28 ip address VPC with a single subnet to host my ECS cluster
 
 Networking/Security: 
