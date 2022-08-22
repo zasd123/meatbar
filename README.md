@@ -41,12 +41,6 @@ terraform/main.tf handles the following:
     -Provisioning of infrastructure
     -Hot-swap deployment of new images to the ECS task 
 
-Changes I would make given more time/resources:
-
-    - AWS WAF to better monitor and control the traffic that reaches the endpoint
-    - Res
-
-
 DEPLOYMENT
 Pre-requisites:
     - A terraform client and Docker daemon/desktop installed locally
