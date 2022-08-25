@@ -4,7 +4,7 @@ BACKGROUND
 
 I received the original request above linking me to this repository: https://github.com/freckle/meatbar which either does not exist or is private. 
 
-I didn't have a lot of free time to work on this so instead of contacting the recruiter over the weekend, I did some searching around on Github and found this repo: https://github.com/stackptr/meatbar which appears to match up to the project requirements.  If you want this work in a pull request on the freckle repo, just grant my access and let me know.
+I didn't have a lot of free time to work on this so instead of contacting the recruiter over the weekend, I did some searching around on Github and found this repo: https://github.com/solreynolds/meatbar which appears to match up to the project requirements.  If you want this work in a pull request on the freckle repo, just grant my access and let me know.
 My public Github username is: zasd123
 
 
